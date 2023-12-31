@@ -1,5 +1,5 @@
 const upcomingYear=new Date().getFullYear()+1;
-const destinationTime=new Date(""+upcomingYear+"-01-01 23:59:59").getTime()
+const destinationTime=new Date(""+upcomingYear+"-01-01 00:00:00").getTime()
 const yearLoc=document.getElementById("upcomingYear")
 yearLoc.textContent=upcomingYear
 setInterval(()=>{
